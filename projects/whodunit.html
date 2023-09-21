@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🥑🥔🍚🍟🍞🍆</title>
+    <!-- p5 yo-->
+    <script
+      src="https://kit.fontawesome.com/853406a8b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <nav class="menu" id="siteNav">
+      <ul>
+        <li><a href="../index.html#workBody">Projects</a></li>
+        <li><a href="../mystory.html">About Me</a></li>
+        <li><a href="../resume_september2023.pdf">Resume</a></li>
+      </ul>
+    </nav>
+
+    <div id="projSect">
+      <div class="projMain">
+        <div class="projTitle">
+          <h3>Whodunit Wordplay</h3>
+          <h4 class="subTitle"><br />(HTML / CSS / JS)</h4>
+        </div>
+        <div class="projGrid">
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_main.png" />
+            </div>
+            <p>The main page of Whodunit Wordplay.</p>
+          </div>
+          <p>
+            Inspired by my love for cozy mysteries like "Only Murders in the
+            Building" and "Knives Out," I created an enhanced version of the
+            classic game Hangman. In this new iteration called "Whodunit
+            Wordplay," players are tasked with deciphering a secret keyword by
+            guessing words or individual letters, but what sets my version apart
+            is that players have a time constraint of just three minutes to
+            crack the code. Additionally, for every incorrect guess, 10 seconds
+            are deducted from the remaining time.
+          </p>
+          <div class="warnText">
+            <h5>⚠️ WARNING ⚠️</h5>
+            <p>
+              Due to time constraints and the challenge of reacquainting myself
+              with JavaScript (after a long and <i>intense</i> period of
+              learning C/C++), my code is somewhat redundant (WET), a bit
+              disorganized, and it may give you a migraine. 🤦🏻‍♀️
+            </p>
+            <p>It is also not responsive. 😬</p>
+            <p>
+              Fret not, I plan to refactor and improve the code in the future!
+            </p>
+          </div>
+          <div class="btnBox">
+            <button data-link="https://cescaa.github.io/WhodunitWordplay/">
+              See Live
+            </button>
+            <button data-link="https://github.com/cescaa/WhodunitWordplay">
+              See on GitHub <i class="fa-brands fa-github-alt"></i>
+            </button>
+          </div>
+          <h5>Tools and Languages</h5>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+          <h5>Functionality</h5>
+          <ul>
+            <li>3 minute countdown</li>
+            <li>
+              Remaining countdown is reduced by 10 seconds for every wrong guess
+            </li>
+            <li>
+              A random keyword is selected among an array of cozy mystery-themed
+              words for every new game
+            </li>
+            <li>
+              Styling of input and keyword elements change depending on correct
+              or incorrect guesses
+            </li>
+            <li>Guessed letters and/or words are displayed</li>
+            <li>
+              Styling of the game changes depending on its outcome (e.g. If won,
+              a new image appears)
+            </li>
+            <!--<li>option of playing music</li>-->
+          </ul>
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_intro.png" />
+            </div>
+            <p>The start page of Whodunit Wordplay.</p>
+          </div>
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_win.png" />
+            </div>
+            <p>The screen when the player wins.</p>
+          </div>
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_lost.png" />
+            </div>
+            <p>The screen when the player loses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
