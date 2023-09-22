@@ -704,37 +704,36 @@ button {
     padding: 0.5rem;
   } */
 
+  /* MENU */
+
   .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     background-color: transparent;
     position: fixed;
-    padding: 2rem 0.5rem;
+    margin: 2rem 0;
+    padding: 0;
     text-align: right;
     font-size: 1.5rem;
     font-family: Light;
     z-index: 10;
-    height: auto;
   }
 
   #siteNav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: auto;
+    margin: auto;
+    padding: 1rem;
   }
 
   #siteNav ul li {
-    display: block;
-    width: auto;
+    display: inline-block;
   }
 
   #siteNav ul li a {
     padding: 0.5rem;
-    margin: auto 0.5rem;
+    margin-left: 1rem;
     text-decoration: none;
     transition: all 0.1s;
     border-radius: 2px;
@@ -746,22 +745,30 @@ button {
     background-color: white;
     border: solid 1.5px #001c00;
     box-shadow: -5px -5px 0 #001c00;
-    margin: 0;
   }
 
-  #canvas,
-  #title {
-    min-height: 62vh;
-  }
-
-  #projSect {
+  #projSect,
+  section {
     padding: 8rem 0;
+  }
+
+  #workBody .mainCell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
   }
 
   .projMain {
     width: 100%;
     padding: 2rem;
     padding-top: 8rem;
+  }
+
+  .subGrid {
+    max-width: auto;
+    margin: 1rem;
   }
 
   .projGrid {
@@ -778,8 +785,8 @@ button {
   }
 
   h1 {
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 8rem;
+    line-height: 8rem;
     padding: 2rem;
   }
 
