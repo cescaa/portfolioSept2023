@@ -44,7 +44,6 @@ body {
   font-family: NormalReg;
   cursor: url("../img/crayon9.png"), auto;
   background-color: white;
-  overflow-x: hidden;
 }
 
 section {
@@ -677,14 +676,36 @@ button {
 /* MEDIA QUERIES */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  #siteNav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .menu ul li a,
+  #siteNav ul li a {
+    display: inline;
+    box-shadow: none;
+    margin: 0rem;
+    margin-left: 0;
   }
 
   #canvas,
   #title {
     min-height: 62vh;
+  }
+
+  #projSect {
+    padding: 8rem 0;
   }
 
   .projMain {
@@ -697,9 +718,13 @@ button {
     width: 100%;
   }
 
+  .imgBox_oneCell {
+    width: 100%;
+  }
+
   .imgBox_oneCell > img,
   .imgBox {
-    max-width: 85%;
+    max-width: 100%;
   }
 
   h1 {
