@@ -681,14 +681,18 @@ button {
     font-size: 14px;
   }
 
+  /*
   #siteNav {
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    width: 100vw;
-    margin-top: 1rem;
+    width: 100%;
+    margin: 0rem;
     padding: 0;
+    height: auto;
+    background-color: red;
+    overflow: scroll;
   }
 
   .menu ul li a,
@@ -697,6 +701,52 @@ button {
     box-shadow: none;
     margin: 0rem;
     margin-left: 0;
+    padding: 0.5rem;
+  } */
+
+  .menu {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    padding: 2rem 0.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: Light;
+    z-index: 10;
+    height: auto;
+  }
+
+  #siteNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  #siteNav ul li {
+    display: block;
+    width: auto;
+  }
+
+  #siteNav ul li a {
+    padding: 0.5rem;
+    margin: auto 0.5rem;
+    text-decoration: none;
+    transition: all 0.1s;
+    border-radius: 2px;
+    font-family: Light;
+  }
+
+  .menu ul li a {
+    color: #001c00;
+    background-color: white;
+    border: solid 1.5px #001c00;
+    box-shadow: -5px -5px 0 #001c00;
+    margin: 0;
   }
 
   #canvas,
