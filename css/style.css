@@ -186,9 +186,10 @@ h1 {
 
 h2 {
   font-size: 9rem;
-  line-height: 7.5rem;
+  line-height: 8rem;
   color: #3f3f3f;
   letter-spacing: -3px;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -358,7 +359,7 @@ a {
   border-radius: 4px;
   box-shadow: -15px -15px 0 #3f3f3f;
   margin: 2rem;
-  margin-top: 6rem;
+  margin-bottom: 4rem;
 }
 
 .smooth-transition {
@@ -693,6 +694,10 @@ button {
   .imgBox_oneCell > img,
   .imgBox {
     max-width: 85%;
+  }
+
+  .subGrid {
+    margin-bottom: 3rem;
   }
 
   h1 {
