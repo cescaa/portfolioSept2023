@@ -44,6 +44,7 @@ body {
   font-family: NormalReg;
   cursor: url("../img/crayon9.png"), auto;
   background-color: white;
+  overflow-x: hidden;
 }
 
 section {
@@ -92,7 +93,7 @@ img {
 
 .menu {
   float: right;
-  width: 100%;
+  width: auto;
   background-color: transparent;
   position: fixed;
   padding: 2rem 2rem 1rem 0;
@@ -681,6 +682,11 @@ button {
     font-size: 12px;
   }
 
+  #canvas,
+  #title {
+    min-height: 62vh;
+  }
+
   .projMain {
     width: 100%;
     padding: 2rem;
@@ -697,8 +703,14 @@ button {
   }
 
   h1 {
-    font-size: 12rem;
-    line-height: 11rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 7rem;
+    margin-bottom: 0;
   }
 
   #banner h3 {
