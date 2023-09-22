@@ -179,7 +179,7 @@ h3 {
 
 h1 {
   font-size: 15rem;
-  line-height: 11rem;
+  line-height: 14rem;
   /* -webkit-text-stroke: 2px #3F3F3F;
   color: transparent; */
 }
@@ -342,7 +342,7 @@ a {
   background-color: transparent;
   border: none;
   margin-top: 0;
-  padding: 0;
+  padding: 0 2rem;
   max-width: 80rem;
 }
 
@@ -512,7 +512,10 @@ a {
 }
 
 .flexCell {
-  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
   margin-bottom: 2rem;
 }
 
@@ -673,18 +676,91 @@ button {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 8px;
+    font-size: 12px;
+  }
+
+  .projMain {
+    width: 100%;
+    padding: 2rem;
+    padding-top: 8rem;
+  }
+
+  .projGrid {
+    width: 100%;
+  }
+
+  .imgBox_oneCell > img,
+  .imgBox {
+    max-width: 85%;
+  }
+
+  h1 {
+    font-size: 12rem;
+    line-height: 11rem;
+  }
+
+  #banner h3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .projMain h3 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+    max-width: 16rem;
+    margin-left: 2rem;
+  }
+
+  .flexCell p {
+    font-size: 1.25rem;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .projMain {
+    width: 50rem;
+    padding: 0;
+    padding-top: 8rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+    max-width: 16rem;
+    margin-left: 2rem;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .projMain {
+    width: 60rem;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+
+  .projMain {
+    padding: 6rem;
+    padding-top: 8rem;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  .projMain {
+    width: 80rem;
+  }
 }
