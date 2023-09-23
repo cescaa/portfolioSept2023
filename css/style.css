@@ -523,7 +523,7 @@ a {
 
 .imgBox {
   max-height: 32rem;
-  width: 40rem;
+  width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   border: #001c00 1.5px solid;
@@ -535,40 +535,31 @@ a {
   margin-bottom: -0.4rem;
 }
 
-.imgBox_twoCell,
+.imgBox_oneCell,
 .imgBox_twoCell {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  width: 40rem;
-}
-
-.imgBox_oneCell {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40rem;
+  width: 100%;
 }
 
-.imgBox_oneCell > img {
-  width: 40rem;
+.imgBox_twoCell {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.imgBox_oneCell > img,
+.imgBox_twoCell > img {
+  width: 100%;
   height: 100%;
   padding: 0;
+  margin: 0 0.5rem;
   border: #001c00 1.5px solid;
-  margin: 0;
 }
 
 .imgBox_twoCell > img {
-  width: 19rem;
-  height: 100%;
-  padding: 0;
-  border: #001c00 1.5px solid;
-  margin: 0;
-}
-
-#chat2 {
-  width: 18.88rem;
+  width: 50%;
 }
 
 .imgCap {
@@ -583,10 +574,8 @@ a {
   font-size: 7rem;
   line-height: 6rem;
   letter-spacing: -2px;
-  text-align: left;
+  text-align: center;
   padding: 0rem;
-  display: inline;
-  -webkit-text-stroke-width: 0px;
 }
 
 .subTitle {
@@ -744,6 +733,7 @@ button {
     width: 100%;
     padding: 1.5rem;
     padding-top: 8rem;
+    border: none;
   }
 
   .subGrid {
@@ -754,15 +744,6 @@ button {
 
   .projGrid {
     width: 100%;
-  }
-
-  .imgBox_oneCell {
-    width: 100%;
-  }
-
-  .imgBox_oneCell > img,
-  .imgBox {
-    max-width: 100%;
   }
 
   h1 {
@@ -788,9 +769,13 @@ button {
   }
 
   .projMain h3 {
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: -1px;
-    line-height: 5rem;
+    line-height: 4rem;
+  }
+
+  .subTitle {
+    line-height: 2rem;
   }
 
   button {
