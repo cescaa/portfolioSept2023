@@ -174,7 +174,7 @@ h3 {
   text-align: center;
   margin: 0 auto;
   padding: 1rem;
-  letter-spacing: -6px;
+  letter-spacing: -3px;
 }
 
 h1 {
@@ -188,7 +188,7 @@ h2 {
   font-size: 9rem;
   line-height: 8rem;
   color: #001c00;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   margin-bottom: 2rem;
 }
 
@@ -582,7 +582,7 @@ a {
 .projMain h3 {
   font-size: 7rem;
   line-height: 6rem;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
   text-align: left;
   padding: 0rem;
   display: inline;
@@ -774,6 +774,7 @@ button {
   .subGrid {
     max-width: auto;
     margin: 1rem;
+    box-shadow: -0.75rem -0.75rem 0 #001c00;
   }
 
   .projGrid {
@@ -792,13 +793,18 @@ button {
   h1 {
     font-size: 8rem;
     line-height: 8rem;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     padding: 2rem;
   }
 
   h2 {
     font-size: 7rem;
+    letter-spacing: 0;
     margin-bottom: 0;
+  }
+
+  .projectDesc h3 {
+    line-height: 2.5rem;
   }
 
   #banner h3 {
@@ -808,6 +814,7 @@ button {
 
   .projMain h3 {
     font-size: 5rem;
+    letter-spacing: -1px;
     line-height: 5rem;
   }
 
