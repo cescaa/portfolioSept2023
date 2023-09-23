@@ -681,6 +681,11 @@ button {
     font-size: 12px;
   }
 
+  #title,
+  #canvas {
+    min-height: 70vh;
+  }
+
   /*
   #siteNav {
     display: flex;
@@ -711,7 +716,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: pink;
+    background-color: transparent;
     position: fixed;
     margin: 2rem 0;
     padding: 0;
@@ -733,7 +738,7 @@ button {
 
   #siteNav ul li a {
     padding: 0.5rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     text-decoration: none;
     transition: all 0.1s;
     border-radius: 2px;
@@ -749,7 +754,7 @@ button {
 
   #projSect,
   section {
-    padding: 8rem 0;
+    padding: 0;
   }
 
   #workBody .mainCell {
@@ -762,7 +767,7 @@ button {
 
   .projMain {
     width: 100%;
-    padding: 2rem;
+    padding: 1.5rem;
     padding-top: 8rem;
   }
 
@@ -787,16 +792,13 @@ button {
   h1 {
     font-size: 8rem;
     line-height: 8rem;
+    letter-spacing: -2px;
     padding: 2rem;
   }
 
   h2 {
     font-size: 7rem;
     margin-bottom: 0;
-  }
-
-  p {
-    font-size: 1.5rem;
   }
 
   #banner h3 {
@@ -815,8 +817,18 @@ button {
     margin-left: 2rem;
   }
 
-  .flexCell p {
-    font-size: 1.25rem;
+  p,
+  .projGrid p,
+  .projGrid li {
+    font-size: 1.5rem;
+  }
+
+  p {
+    line-height: 1.75;
+  }
+
+  .projGrid p {
+    line-height: 2.25rem;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
