@@ -686,31 +686,6 @@ button {
     min-height: 70vh;
   }
 
-  /*
-  #siteNav {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0rem;
-    padding: 0;
-    height: auto;
-    background-color: red;
-    overflow: scroll;
-  }
-
-  .menu ul li a,
-  #siteNav ul li a {
-    display: inline;
-    box-shadow: none;
-    margin: 0rem;
-    margin-left: 0;
-    padding: 0.5rem;
-  } */
-
-  /* MENU */
-
   .menu {
     display: flex;
     flex-direction: row;
@@ -854,6 +829,25 @@ button {
     font-size: 1.5rem;
     max-width: 16rem;
     margin-left: 2rem;
+  }
+  button {
+    font-size: 1.5rem;
+    max-width: 16rem;
+    margin-left: 2rem;
+  }
+
+  p,
+  .projGrid p,
+  .projGrid li {
+    font-size: 1.5rem;
+  }
+
+  p {
+    line-height: 1.75;
+  }
+
+  .projGrid p {
+    line-height: 2.25rem;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
