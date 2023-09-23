@@ -92,7 +92,7 @@ img {
 
 .menu {
   float: right;
-  width: auto;
+  width: 100%;
   background-color: transparent;
   position: fixed;
   padding: 2rem 2rem 1rem 0;
@@ -687,14 +687,11 @@ button {
   }
 
   .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     background-color: transparent;
     position: fixed;
     margin: 2rem 0;
-    padding: 0;
+    padding: 0 1rem;
     text-align: right;
     font-size: 1.5rem;
     font-family: Light;
@@ -702,6 +699,9 @@ button {
   }
 
   #siteNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style-type: none;
     margin: auto;
     padding: 1rem;
