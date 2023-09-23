@@ -711,7 +711,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: transparent;
+    background-color: pink;
     position: fixed;
     margin: 2rem 0;
     padding: 0;
