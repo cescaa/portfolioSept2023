@@ -326,6 +326,7 @@ a {
 
 #workBody {
   background-image: url(../img/scatterStars.svg);
+  background-size: 50%;
   padding-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
@@ -403,7 +404,7 @@ a {
   padding: 1rem;
   border-bottom: #fff 1.5px solid;
   margin-bottom: 3rem;
-  max-width: 40rem;
+  max-width: 45rem;
 }
 
 .socials a {
