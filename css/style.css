@@ -223,6 +223,7 @@ a {
   border-bottom: #001c00 1.5px solid;
   color: #001c00;
   font-family: NormalReg;
+  cursor: url("../img/crayon9.png"), auto;
 }
 
 #myStorySect h2 {
@@ -401,6 +402,8 @@ a {
 .socials {
   padding: 1rem;
   border-bottom: #fff 1.5px solid;
+  margin-bottom: 3rem;
+  max-width: 40rem;
 }
 
 .socials a {
@@ -411,7 +414,7 @@ a {
 }
 
 .socials p {
-  line-height: 1.75rem;
+  line-height: 2rem;
 }
 
 .socials > ul {
