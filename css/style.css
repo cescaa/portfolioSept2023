@@ -36,6 +36,7 @@
 
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -44,6 +45,7 @@ body {
   font-family: NormalReg;
   cursor: url("../img/crayon9.png"), auto;
   background-color: white;
+  overflow-x: hidden;
 }
 
 section {
