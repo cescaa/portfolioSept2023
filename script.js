@@ -2,11 +2,11 @@
 
 // Get all the cells
 const worksCells = document.querySelectorAll(".subGrid");
-const menu = document.querySelector(".menu");
+const menu = document.getElementById("siteNav");
 const menuItems = menu.querySelectorAll("a");
 const btns = document.querySelectorAll("button");
 
-// Function to generate a random color in hexadecimal format
+// generates a random color
 function getRandomColour() {
   const palette = ["fe6f5e", "fe6f5e", "ffcc33", "afe313", "95e0e8", "8a8ad5"];
   const randomIdx = Math.floor(Math.random() * palette.length);
@@ -14,7 +14,7 @@ function getRandomColour() {
   return colour;
 }
 
-const colourButtons = (buttonType) => {
+const colourButtons = (buttonType, hasReverse = false) => {
   buttonType.forEach((cell) => {
     cell.classList.add("smooth-transition");
 
@@ -46,13 +46,19 @@ const colourButtons = (buttonType) => {
       cell.style.backgroundColor = hoveredColour;
     });
     cell.addEventListener("mouseout", () => {
-      cell.style.backgroundColor = "#fff";
+      if (hasReverse) {
+        cell.style.backgroundColor = menu.classList.contains("menuReverse")
+          ? "#001C00"
+          : "#fff";
+      } else {
+        cell.style.backgroundColor = "#fff";
+      }
     });
   });
 };
 
 colourButtons(worksCells);
-colourButtons(menuItems);
+colourButtons(menuItems, true);
 colourButtons(btns);
 
 // changes project description to "in progress" when hovered
