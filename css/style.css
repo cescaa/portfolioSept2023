@@ -307,7 +307,7 @@ a {
   z-index: -1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   width: 100vw;
 }
 
@@ -326,7 +326,7 @@ a {
 #title {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   width: 100%;
   min-height: 85vh;
   position: absolute;
@@ -748,7 +748,7 @@ button {
   #title,
   #canvas,
   #canvas2 {
-    min-height: 78vh;
+    max-height: 78vh;
   }
 
   .menu {
@@ -913,6 +913,12 @@ button {
     font-size: 12px;
   }
 
+  #title,
+  #canvas,
+  #canvas2 {
+    max-height: 78vh;
+  }
+
   .projMain,
   #myStorySect .mainCell {
     width: 45rem;
@@ -958,6 +964,12 @@ button {
   .projMain,
   #myStorySect .mainCell {
     width: 60rem;
+  }
+
+  #title,
+  #canvas,
+  #canvas2 {
+    min-height: 82vh;
   }
 
   .projGrid {
