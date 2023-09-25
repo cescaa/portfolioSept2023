@@ -985,6 +985,11 @@ button {
     font-size: 14px;
   }
 
+  #title,
+  #canvas,
+  #canvas2 {
+    min-height: 50rem;
+  }
   .projMain,
   #myStorySect .mainCell {
     padding: 4rem;
