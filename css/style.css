@@ -917,6 +917,7 @@ button {
   #canvas,
   #canvas2 {
     max-height: 78vh;
+    min-height: 55rem;
   }
 
   .projMain,
