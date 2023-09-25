@@ -173,8 +173,8 @@ h3 {
 }
 
 h1 {
-  font-size: 14rem;
-  line-height: 12rem;
+  font-size: 12.5rem;
+  line-height: 11rem;
   /* -webkit-text-stroke: 2px #001c00;
   color: transparent; */
 }
@@ -315,7 +315,7 @@ a {
   width: 120%;
   max-width: 40rem;
   position: absolute;
-  top: 1rem;
+  top: 3rem;
 }
 
 #canvas {
@@ -971,6 +971,11 @@ button {
   #cescaDraw {
     transform: rotate(5deg) translate(3rem, -10rem);
   }
+
+  #canvas2 img {
+    max-width: 45rem;
+    top: 5rem;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -987,6 +992,9 @@ button {
 
   .projGrid {
     width: 45rem;
+  }
+  #canvas2 img {
+    max-width: 40rem;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
