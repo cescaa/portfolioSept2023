@@ -47,9 +47,11 @@ const colourButtons = (buttonType, hasReverse = false) => {
     });
     cell.addEventListener("mouseout", () => {
       if (hasReverse) {
-        cell.style.backgroundColor = menu.classList.contains("menuReverse")
-          ? "#001C00"
-          : "#fff";
+        if (menu.classList.contains("menuReverse")) {
+          cell.style.backgroundColor = "#001C00";
+          cell.style.color = "#fff";
+          cell.style.border = "solid #fff 1.5px";
+        }
       } else {
         cell.style.backgroundColor = "#fff";
       }

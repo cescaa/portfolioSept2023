@@ -151,12 +151,11 @@ button {
   color: white;
   background-color: #001c00;
   border: solid 1px white;
-  box-shadow: -5px -5px 0 white;
+  box-shadow: -3px -3px 0 white;
 }
 
 .menuReverse ul li a:active {
   border: solid 2px white;
-  box-shadow: 0 0 0 #001c00;
 }
 
 /* HEADERS AND TEXT */
@@ -422,6 +421,10 @@ a {
 
 .socials > ul {
   list-style-type: none;
+}
+
+.blackBG {
+  background-color: #001c00;
 }
 
 .threeColGrid,
@@ -735,8 +738,8 @@ button {
   }
 
   .menuReverse {
-    background-color: #fff;
-    border-bottom: 1.5px solid #001c00;
+    background-color: #001c00;
+    border-bottom: 1.5px solid #fff;
   }
 
   #meImgContainer {
@@ -769,6 +772,13 @@ button {
     background-color: white;
     border: solid 1.5px #001c00;
     box-shadow: -3px -3px 0 #001c00;
+  }
+
+  .menuReverse ul li a {
+    color: #fff;
+    background-color: #001c00;
+    border: solid 1.5px #fff;
+    box-shadow: -3px -3px 0 #fff;
   }
 
   #projSect,
@@ -957,7 +967,7 @@ button {
   }
 
   #myStorySect .mainCell {
-    width: 70rem;
+    width: 80rem;
   }
   #meImgContainer {
     width: 120%;
