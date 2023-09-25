@@ -51,6 +51,8 @@ const colourButtons = (buttonType, hasReverse = false) => {
           cell.style.backgroundColor = "#001C00";
           cell.style.color = "#fff";
           cell.style.border = "solid #fff 1.5px";
+        } else {
+          cell.style.backgroundColor = "#fff";
         }
       } else {
         cell.style.backgroundColor = "#fff";
