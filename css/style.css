@@ -294,11 +294,16 @@ a {
 
 /* HOMEPAGE */
 
+#canvas,
+#canvas2 {
+  overflow-x: hidden;
+  min-height: 85vh;
+}
+
 #canvas2 {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 85vh;
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -314,7 +319,6 @@ a {
 }
 
 #canvas {
-  min-height: 85vh;
   background-image: url(../img/jigsawWhite.svg);
   background-size: 11rem;
 }
@@ -324,7 +328,7 @@ a {
   justify-content: center;
   align-items: last baseline;
   width: 100%;
-  min-height: 82vh;
+  min-height: 85vh;
   position: absolute;
   top: 0;
   background-image: url(../img/jigsaw.svg);
@@ -348,7 +352,7 @@ a {
 
 #workBody {
   background-image: url(../img/scatterStars.svg);
-  background-size: 50%;
+  background-size: 70rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
@@ -742,8 +746,9 @@ button {
   }
 
   #title,
-  #canvas {
-    min-height: 70vh;
+  #canvas,
+  #canvas2 {
+    min-height: 78vh;
   }
 
   .menu {
