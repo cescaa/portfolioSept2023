@@ -961,12 +961,6 @@ button {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  #title,
-  #canvas,
-  #canvas2 {
-    min-height: 82vh;
-  }
-
   .projGrid {
     width: 45rem;
   }
