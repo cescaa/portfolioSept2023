@@ -845,7 +845,7 @@ button {
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 9rem;
     line-height: 8rem;
     letter-spacing: 0px;
     padding: 2rem;
@@ -984,11 +984,14 @@ button {
   html {
     font-size: 14px;
   }
+  h1 {
+    line-height: 10.5rem;
+  }
 
   #title,
   #canvas,
   #canvas2 {
-    min-height: 50rem;
+    min-height: 70vh;
   }
   .projMain,
   #myStorySect .mainCell {
@@ -1003,11 +1006,21 @@ button {
   #canvas2 img {
     max-width: 40rem;
   }
+
+  #canvas2 img {
+    top: 1rem;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 16px;
+  }
+
+  #title,
+  #canvas,
+  #canvas2 {
+    min-height: 82vh;
   }
 
   .projMain,
