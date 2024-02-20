@@ -747,8 +747,8 @@ button {
   
 }
 
-#githubMsg h3 {
-padding: 1rem auto;
+#githubMsg > h3 {
+padding: 2rem auto;
 }
 
 #githubMsg a {
