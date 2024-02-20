@@ -45,7 +45,6 @@ body {
   font-family: NormalReg;
   cursor: url("../img/crayon9.png"), auto;
   background-color: white;
-  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -741,15 +740,11 @@ button {
 #githubMsg {
   text-align: center;
   background-color: #fff;
-  margin: 0 1rem;
   margin-bottom: 1rem;
   max-width: 80rem;
   border: 1.5px solid #001c00;
+  padding: 2rem auto;
   
-}
-
-#githubMsg > h3 {
-padding: 2rem auto;
 }
 
 #githubMsg a {
