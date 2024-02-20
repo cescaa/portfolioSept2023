@@ -744,7 +744,11 @@ button {
   margin-bottom: 1rem;
   max-width: 80rem;
   border: 1.5px solid #001c00;
-  padding: 1rem auto;
+  
+}
+
+#githubMsg h3 {
+padding: 1rem auto;
 }
 
 #githubMsg a {
