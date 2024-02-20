@@ -740,7 +740,7 @@ button {
 #githubMsg {
   text-align: center;
   background-color: #fff;
-  margin: 0 auto;
+  margin: 0 1rem;
   margin-bottom: 1rem;
   max-width: 80rem;
   border: 1.5px solid #001c00;
