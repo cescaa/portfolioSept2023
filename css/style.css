@@ -737,6 +737,15 @@ button {
   margin-left: 0.5rem;
 }
 
+#githubMsg {
+  text-align: center;
+  background-color: #fff;
+}
+
+#githubMsg a {
+  font-weight: 400;
+}
+
 /* MEDIA QUERIES */
 
 /* Extra small devices (phones, 600px and down) */
@@ -960,6 +969,7 @@ button {
     transform: rotate(5deg) translate(0rem, 0rem);
   }
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .projGrid {
