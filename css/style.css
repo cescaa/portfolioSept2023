@@ -737,13 +737,16 @@ button {
   margin-left: 0.5rem;
 }
 
-#githubMsg {
+#githubMsg h3 {
   text-align: center;
   background-color: #fff;
+  margin: 0 2rem 1rem 2rem;
+  border: 1.5px solid #001c00;
+  
 }
 
 #githubMsg a {
-  font-weight: 400;
+  font-family: BoldBlack;
 }
 
 /* MEDIA QUERIES */
