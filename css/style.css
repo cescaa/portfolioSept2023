@@ -197,6 +197,12 @@ h3 {
   letter-spacing: 0px;
 }
 
+h3 > span {
+  font-family: Light;
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+
 h4 {
   font-family: NormalReg;
   font-size: 1.5rem;
@@ -609,6 +615,10 @@ a {
   margin-bottom: -0.4rem;
 }
 
+.caption_twoCell {
+  background-color: red;
+}
+
 .imgBox_oneCell,
 .imgBox_twoCell {
   display: flex;
@@ -662,6 +672,7 @@ a {
 #mystorysect p,
 .projGrid p,
 .projGrid ul,
+.projGrid ol,
 .projGrid h5,
 .imgCap {
   font-family: Light;
@@ -683,7 +694,8 @@ a {
   margin-top: 3rem;
 }
 
-.projGrid ul {
+.projGrid ul,
+.projGrid ol {
   list-style-type: disc;
   margin-bottom: 1rem;
 }
@@ -691,6 +703,10 @@ a {
 .projGrid li {
   margin-left: 2.5rem;
   margin-bottom: 0.5rem;
+}
+
+.projGrid li span {
+  font-family: BoldBlack;
 }
 
 .warnText {
@@ -705,6 +721,7 @@ a {
 
 .projGrid p,
 .projGrid ul,
+.projGrid ol,
 .imgCap {
   font-size: 1.25rem;
 }
@@ -744,11 +761,34 @@ button {
   max-width: 75rem;
   border: 1.5px solid #001c00;
   padding: 2rem auto;
-  
 }
 
 #githubMsg a {
   font-family: BoldBlack;
+}
+
+#journey {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 330px;
+  height: 690px;
+}
+
+#prototype {
+  position: absolute;
+  top: 37px;
+  left: 24px;
+}
+
+#iphone {
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 330px; // 309.5
+  height: auto;
+  pointer-events: none;
+  border: none;
 }
 
 /* MEDIA QUERIES */
@@ -883,10 +923,15 @@ button {
     padding: 1.5rem 0.5rem;
   }
 
-  .projMain h3 {
+  .projMain h3,
+  .projMain h3 > span {
     font-size: 4rem;
     letter-spacing: -1px;
     line-height: 5rem;
+  }
+
+  .projMain h3 > span {
+    font-size: 3rem;
   }
 
   .subTitle {
