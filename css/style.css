@@ -643,7 +643,7 @@ a {
 }
 
 .imgBox_twoCell > img {
-  width: 50%;
+  width: 48%;
 }
 
 .imgCap {
@@ -895,7 +895,7 @@ button {
   }
 
   .flexCell {
-    margin-bottom: 0rem;
+    margin-bottom: 0.5rem;
   }
 
   h1 {
